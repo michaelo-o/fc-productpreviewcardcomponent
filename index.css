@@ -10,23 +10,18 @@ body {
     place-content: center;
 }
 
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: auto;
-    padding: 0;
-}
 
-.productcont {
+main {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-basis: 50%;
     max-width: 95%;
     border-radius: 15px;
-    /* border: 3px solid red; */
-    /* box-sizing: border-box; */
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
 }
 
 .imgdesktop {
@@ -143,7 +138,7 @@ main {
         display: none;
     }
 
-    .productcont {
+    main {
         display: flex;
         flex-direction: column;
         justify-content: center;
